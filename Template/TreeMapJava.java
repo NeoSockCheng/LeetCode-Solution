@@ -1,5 +1,6 @@
 package Template;
 
+import java.util.Map;
 import java.util.TreeMap;
 
 public class TreeMapJava {
@@ -30,6 +31,17 @@ public class TreeMapJava {
 
         // Remove an element by key
         map.remove("Alice");
+
+        Map.Entry<String, Integer> firstEntry = map.firstEntry();
+        System.out.println("First Entry: " + firstEntry);
+
+        // Get first key only
+        String firstKey = map.firstKey();
+        System.out.println("First Key: " + firstKey);
+
+        // Get first value
+        Integer firstValue = map.get(firstKey);
+        System.out.println("First Value: " + firstValue);
 
         // Clear all elements in the TreeMap
         map.clear();
