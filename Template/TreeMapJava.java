@@ -13,6 +13,7 @@ public class TreeMapJava {
 
         // Get the value associated with a specific key
         int ageOfBob = map.get("Bob");
+        System.out.println(ageOfBob);
 
         // Get the first and last entry
         System.out.println("First entry: " + map.firstEntry());

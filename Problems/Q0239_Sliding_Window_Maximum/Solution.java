@@ -1,11 +1,9 @@
 package Problems.Q0239_Sliding_Window_Maximum;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 class Solution {
     public  int[] maxSlidingWindow(int[] nums, int k) {

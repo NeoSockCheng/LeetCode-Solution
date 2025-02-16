@@ -1,12 +1,5 @@
 package Problems.Q0138_Copy_List_with_Random_Pointer;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
-
-// Definition for a Node.
-
-
 // class Solution {
 //     public Node copyRandomList(Node head) {
 //         if (head == null)

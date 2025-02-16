@@ -1,8 +1,6 @@
 package Problems.Q0567_Permutation_in_String;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 
 // class Solution {
 //     public boolean checkInclusion(String s1, String s2) {

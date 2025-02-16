@@ -1,10 +1,7 @@
 package Problems.Q0853_Car_Fleet;
 
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Stack;
 import java.util.TreeMap;
 
 // class Solution {

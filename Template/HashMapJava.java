@@ -12,18 +12,22 @@ public class HashMapJava {
 
         // Get the value associated with a specific key
         int ageOfBob = map.get("Bob");
+        System.out.println(ageOfBob);
 
         // Check if a key exists in the HashMap
         boolean hasCharlie = map.containsKey("Charlie");
+        System.out.println(hasCharlie);
 
         // Check if a value exists in the HashMap
         boolean hasAge25 = map.containsValue(25);
+        System.out.println(hasAge25);
 
         // Remove an element by key
         map.remove("Alice");
 
         // Get the size of the HashMap
         int size = map.size();
+        System.out.println(size);
 
         // Iterate over the HashMap
         for (String key : map.keySet()) {

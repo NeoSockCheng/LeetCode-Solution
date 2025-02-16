@@ -1,7 +1,5 @@
 package Problems.Q0155_Min_Stack;
 
-import java.util.ArrayList;
-import java.util.List;
 
 // class MinStack {
 //     List<Integer> stack;

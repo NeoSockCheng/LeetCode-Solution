@@ -1,8 +1,5 @@
 package Problems.Q0287_Find_the_Duplicate_Number;
 
-import java.util.Arrays;
-import java.util.HashSet;
-
 // set
 // class Solution {
 //     public int findDuplicate(int[] nums) {

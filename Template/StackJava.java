@@ -12,12 +12,15 @@ public class StackJava {
 
         // Peek the top element of the stack
         int top = stack.peek();
+        System.out.println(top);
 
         // Pop elements from the stack
         int popped = stack.pop();
+        System.out.println(popped);
 
         // Check if the stack is empty
         boolean isEmpty = stack.isEmpty();
+        System.out.println(isEmpty);
     }
 }
 

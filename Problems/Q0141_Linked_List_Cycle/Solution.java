@@ -1,7 +1,5 @@
 package Problems.Q0141_Linked_List_Cycle;
 
-import java.util.HashSet;
-
 // public class Solution {
 //     public boolean hasCycle(ListNode head) {
 //         HashSet<ListNode> set = new HashSet<>();
@@ -36,7 +34,7 @@ public class Solution {
             this.next = next;
         }
     }
-    
+
     public boolean hasCycle(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;

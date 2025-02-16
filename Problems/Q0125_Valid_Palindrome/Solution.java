@@ -1,6 +1,5 @@
 package Problems.Q0125_Valid_Palindrome;
 
-import java.util.*;
 
 class Solution {
     public static void main(String[] args) {

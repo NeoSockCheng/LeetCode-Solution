@@ -1,7 +1,5 @@
 package Problems.Q0143_Reorder_List;
 
-import java.util.HashMap;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,7 +27,7 @@ class Solution {
             this.next = next;
         }
     }
-    
+
     public void reorderList(ListNode head) {
 
         if (head == null) {

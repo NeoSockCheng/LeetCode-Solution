@@ -1,8 +1,6 @@
 package Problems.Q0023_Merge_k_Sorted_Lists;
 
-import java.util.Map;
 import java.util.PriorityQueue;
-import java.util.TreeMap;
 
 public class ListNode {
     int val;

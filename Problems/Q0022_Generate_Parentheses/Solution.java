@@ -2,7 +2,6 @@ package Problems.Q0022_Generate_Parentheses;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ArrayBlockingQueue;
 
 class Solution {
     public List<String> generateParenthesis(int n) {
